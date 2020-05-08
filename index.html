@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+
+    <title>Hunter Hinter</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-91799872-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-91799872-3");
+    </script>
+
+    <link rel="stylesheet" href="scripts/owlcarousel/assets/owl.carousel.css" />
+    <link
+      rel="stylesheet"
+      href="scripts/owlcarousel/assets/owl.theme.default.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div id="weapon-selection">
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn btn-secondary dropdown-toggle"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Rifles
+        </button>
+        <div class="dropdown-menu dropdown-menu-left">
+          <button class="dropdown-item btn-active" type="button">
+            Rifles
+          </button>
+          <button class="dropdown-item" type="button">
+            Handguns
+          </button>
+          <button class="dropdown-item" type="button">
+            Shotguns
+          </button>
+          <button class="dropdown-item" type="button">
+            Arrows-Bolts
+          </button>
+          <button class="dropdown-item" type="button">
+            Muzzleloaders
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="logo">
+      <img src="images/thehunter_logo.png" alt="theHunter Classic logo" />
+    </div>
+
+    <div class="filters reserve-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <input
+              type="checkbox"
+              class="navigation-checkbox"
+              id="nav-toggle-reserves"
+            />
+            <label for="nav-toggle-reserves" class="navigation-button">
+              <span class="section-title"
+                >Reserve:
+                <span class="selected-title">Whitehart Island</span></span
+              >
+            </label>
+
+            <div
+              id="reserve-list"
+              class="button-group owl-one owl-carousel owl-theme"
+              data-filter-group="reserve"
+            >
+              <button
+                style="background-image: url(images/all.png);"
+                class="item button reserve r-all"
+                data-filter=".r0"
+              >
+                All
+              </button>
+              <button
+                style="background-image: url(images/reserve/1.png);"
+                class="item button reserve is-checked"
+                data-filter=".r1"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Whitehart Island
+              </button>
+              <button
+                style="background-image: url(images/reserve/2.png);"
+                class="item button reserve"
+                data-filter=".r2"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Logger's Point
+              </button>
+              <button
+                style="background-image: url(images/reserve/3.png);"
+                class="item button reserve"
+                data-filter=".r3"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Settler Creeks
+              </button>
+              <button
+                style="background-image: url(images/reserve/4.png);"
+                class="item button reserve"
+                data-filter=".r4"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Redfeather Falls
+              </button>
+              <button
+                style="background-image: url(images/reserve/5.png);"
+                class="item button reserve"
+                data-filter=".r5"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Hirschfelden
+              </button>
+              <button
+                style="background-image: url(images/reserve/6.png);"
+                class="item button reserve"
+                data-filter=".r6"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Hemmeldal
+              </button>
+              <button
+                style="background-image: url(images/reserve/7.png);"
+                class="item button reserve"
+                data-filter=".r7"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Rougarou Bayou
+              </button>
+              <button
+                style="background-image: url(images/reserve/8.png);"
+                class="item button reserve"
+                data-filter=".r8"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Val-des-Bois
+              </button>
+              <button
+                style="background-image: url(images/reserve/9.png);"
+                class="item button reserve"
+                data-filter=".r9"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Bushrangers Run
+              </button>
+              <button
+                style="background-image: url(images/reserve/10.png);"
+                class="item button reserve"
+                data-filter=".r10"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Whiterime Ridge
+              </button>
+              <button
+                style="background-image: url(images/reserve/11.png);"
+                class="item button reserve"
+                data-filter=".r11"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Timbergold Trails
+              </button>
+              <button
+                style="background-image: url(images/reserve/12.png);"
+                class="item button reserve"
+                data-filter=".r12"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Piccabeen Bay
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filters2 animal-section">
+      <div id="animal-container" class="container" style="left: -99999px;">
+        <div class="row">
+          <div class="col-md-12">
+            <input
+              type="checkbox"
+              class="navigation-checkbox"
+              id="nav-toggle-animals"
+            />
+            <label for="nav-toggle-animals" class="navigation-button">
+              <span class="section-title"
+                >Animals <span class="count-animal">(6)</span>:
+                <span class="selected-title">All</span></span
+              >
+            </label>
+
+            <div
+              id="animal-list"
+              class="animal-grid button-group"
+              data-filter-group="animal"
+            >
+              <!--                                                                                                                    0 -->
+              <button
+                style="background-image: url(images/animal/0.png);"
+                class="filter-block item button animal r0 r1 r2 r3 r4 r7 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a0.rifles"
+              >
+                Whitetail Deer (Typical)
+              </button>
+              <!--                                                                                                                    1 -->
+              <button
+                style="background-image: url(images/animal/1.png);"
+                class="filter-block item button animal r0 r2 r11 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a1.rifles"
+              >
+                Mule Deer (Typical)
+              </button>
+              <!--                                                                                                                     2 -->
+              <button
+                style="background-image: url(images/animal/2.png);"
+                class="filter-block item button animal r0 r1 r3 wr195 wr862 wh12 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964 wm155"
+                data-filter=".a2.rifles"
+              >
+                Turkey
+              </button>
+              <!--                                                                                                                     3-->
+              <button
+                style="background-image: url(images/animal/3.png);"
+                class="filter-block item button animal r0 r1 r3 r4 wr11 wr68 wr131 wr149 wr165 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr972 wh13 wh344 wh596 wh768 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a3.rifles"
+              >
+                Roosevelt Elk
+              </button>
+              <!--                                                                                                                     4-->
+              <button
+                style="background-image: url(images/animal/4.png);"
+                class="filter-block item button animal r0 r1 r2 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr195 wr226 wr303 wr349 wr403 wr589 wr607 wr835 wr850 wr862 wr970 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a4.rifles"
+              >
+                Coyote
+              </button>
+              <!--                                                                                                                     5-->
+              <button
+                style="background-image: url(images/animal/5.png);"
+                class="filter-block item button animal r0 r2 r3 r7 r9 r12 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr970 wr972 wh13 wh344 wh596 wh768 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a5.rifles"
+              >
+                Feral Hog
+              </button>
+              <!--                                                                                                                     6-->
+              <button
+                style="background-image: url(images/animal/6.png);"
+                class="filter-block item button animal r0 r1 r4 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a6.rifles"
+              >
+                Blacktail Deer (Typical)
+              </button>
+              <!--                                                                                                                     7-->
+              <button
+                style="background-image: url(images/animal/7.png);"
+                class="filter-block item button animal r0 r2 r5 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a7.rifles"
+              >
+                Pheasant
+              </button>
+              <!--                                                                                                                     8-->
+              <button
+                style="background-image: url(images/animal/8.png);"
+                class="filter-block item button animal r0 r4 r6 r10 wr11 wr68 wr131 wr149 wr165 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr972 wh344 wh596 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a8.rifles"
+              >
+                Moose
+              </button>
+              <!--                                                                                                                     9-->
+              <button
+                style="background-image: url(images/animal/9.png);"
+                class="filter-block item button animal r0 r3 r4 r7 wr11 wr68 wr131 wr149 wr165 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr970 wr972 wh13 wh344 wh596 wh768 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a9.rifles"
+              >
+                Black Bear
+              </button>
+              <!--                                                                                                                     10-->
+              <button
+                style="background-image: url(images/animal/10.png);"
+                class="filter-block item button animal r0 r5 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr970 wr972 wh13 wh344 wh596 wh768 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a10.rifles"
+              >
+                Wild Boar
+              </button>
+              <!--                                                                                                                     11-->
+              <button
+                style="background-image: url(images/animal/11.png);"
+                class="filter-block item button animal r0 r5 r6 r8 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr195 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a11.rifles"
+              >
+                Roe Deer
+              </button>
+              <!--                                                                                                                     12-->
+              <button
+                style="background-image: url(images/animal/12.png);"
+                class="filter-block item button animal r0 r5 r8 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr970 wr972 wh13 wh344 wh596 wh768 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a12.rifles"
+              >
+                Red Deer
+              </button>
+              <!--                                                                                                                     13-->
+              <button
+                style="background-image: url(images/animal/13.png);"
+                class="filter-block item button animal r0 r6 r8 wr11 wr68 wr131 wr149 wr165 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr972 wh344 wh596 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a13.rifles"
+              >
+                Brown Bear
+              </button>
+              <!--                                                                                                                     14-->
+              <button
+                style="background-image: url(images/animal/14.png);"
+                class="filter-block item button animal r0 r5 r6 r8 r9 wr10 wr195 wr862 wr970 wh12 ws69 ws720 ws785 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964 wm155"
+                data-filter=".a14.rifles"
+              >
+                Red Fox
+              </button>
+              <!--                                                                                                                     15-->
+              <button
+                style="background-image: url(images/animal/15.png);"
+                class="filter-block item button animal r0 r7 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a15.rifles"
+              >
+                Mallard Duck
+              </button>
+              <!--                                                                                                                     16-->
+              <button
+                style="background-image: url(images/animal/16.png);"
+                class="filter-block item button animal r0 r5 wr862 wh12 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a16.rifles"
+              >
+                Canada Goose
+              </button>
+              <!--                                                                                                                     17-->
+              <button
+                style="background-image: url(images/animal/17.png);"
+                class="filter-block item button animal r0 r2 r3 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a17.rifles"
+              >
+                Cottontail Rabbit
+              </button>
+              <!--                                                                                                                     18-->
+              <button
+                style="background-image: url(images/animal/18.png);"
+                class="filter-block item button animal r0 r6 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh13 wh596 wh768 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a18.rifles"
+              >
+                Reindeer
+              </button>
+              <!--                                                                                                                     19-->
+              <button
+                style="background-image: url(images/animal/19.png);"
+                class="filter-block item button animal r0 r8 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a19.rifles"
+              >
+                Alpine Ibex
+              </button>
+              <!--                                                                                                                     20-->
+              <button
+                style="background-image: url(images/animal/20.png);"
+                class="filter-block item button animal r0 r8 r9 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a20.rifles"
+              >
+                European Rabbit
+              </button>
+              <!--                                                                                                                     21-->
+              <button
+                style="background-image: url(images/animal/21.png);"
+                class="filter-block item button animal r0 r9 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr195 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a21.rifles"
+              >
+                Red Kangaroo
+              </button>
+              <!--                                                                                                                     23-->
+              <button
+                style="background-image: url(images/animal/23.png);"
+                class="filter-block item button animal r0 r10 wr10 wr195 wr862 wr970 wh12 ws69 ws720 ws785 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a23.rifles"
+              >
+                Arctic Fox
+              </button>
+              <!--                                                                                                                     24-->
+              <button
+                style="background-image: url(images/animal/24.png);"
+                class="filter-block item button animal r0 r10 wr11 wr149 wr165 wr349 wr483 wr621 wr817 wr835 wh344 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wm346 wm839"
+                data-filter=".a24.rifles"
+              >
+                Bison
+              </button>
+              <!--                                                                                                                     25-->
+              <button
+                style="background-image: url(images/animal/25.png);"
+                class="filter-block item button animal r0 r10 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a25.rifles"
+              >
+                Snowshoe Hare
+              </button>
+              <!--                                                                                                                     26-->
+              <button
+                style="background-image: url(images/animal/26.png);"
+                class="filter-block item button animal r0 r10 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a26.rifles"
+              >
+                Sitka Deer
+              </button>
+              <!--                                                                                                                     27-->
+              <button
+                style="background-image: url(images/animal/27.png);"
+                class="filter-block item button animal r0 r7 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a27.rifles"
+              >
+                Northern Pintail
+              </button>
+              <!--                                                                                                                     28-->
+              <button
+                style="background-image: url(images/animal/28.png);"
+                class="filter-block item button animal r0 r7 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a28.rifles"
+              >
+                American Black Duck
+              </button>
+              <!--                                                                                                                     29-->
+              <button
+                style="background-image: url(images/animal/29.png);"
+                class="filter-block item button animal r0 r7 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a29.rifles"
+              >
+                Gadwall
+              </button>
+              <!--                                                                                                                     30-->
+              <button
+                style="background-image: url(images/animal/30.png);"
+                class="filter-block item button animal r0 r10 wr11 wr68 wr131 wr149 wr165 wr349 wr483 wr607 wr621 wr799 wr817 wr835 wr850 wr972 wh344 wh596 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a30.rifles"
+              >
+                Polar Bear
+              </button>
+              <!--                                                                                                                     33-->
+              <button
+                style="background-image: url(images/animal/33.png);"
+                class="filter-block item button animal r0 r6 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a33.rifles"
+              >
+                Willow Ptarmigan
+              </button>
+              <!--                                                                                                                     34-->
+              <button
+                style="background-image: url(images/animal/34.png);"
+                class="filter-block item button animal r0 r8 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a34.rifles"
+              >
+                Rock Ptarmigan
+              </button>
+              <!--                                                                                                                     35-->
+              <button
+                style="background-image: url(images/animal/35.png);"
+                class="filter-block item button animal r0 r11 wr298 wr771 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a35.rifles"
+              >
+                White-tailed Ptarmigan
+              </button>
+              <!--                                                                                                                     36-->
+              <button
+                style="background-image: url(images/animal/36.png);"
+                class="filter-block item button animal r0 r11 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr195 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a36.rifles"
+              >
+                Grey Wolf
+              </button>
+              <!--                                                                                                                     37-->
+              <button
+                style="background-image: url(images/animal/37.png);"
+                class="filter-block item button animal r0 r11 wr11 wr68 wr131 wr149 wr165 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr972 wh344 wh596 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a37.rifles"
+              >
+                Grizzly Bear
+              </button>
+              <!--                                                                                                                     38-->
+              <button
+                style="background-image: url(images/animal/38.png);"
+                class="filter-block item button animal r0 r11 wr11 wr68 wr131 wr149 wr165 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr972 wh13 wh344 wh596 wh768 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a38.rifles"
+              >
+                Rocky Mountain Elk
+              </button>
+              <!--                                                                                                                     39-->
+              <button
+                style="background-image: url(images/animal/39.png);"
+                class="filter-block item button animal r0 r11 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a39.rifles"
+              >
+                Bighorn Sheep
+              </button>
+              <!--                                                                                                                     40-->
+              <button
+                style="background-image: url(images/animal/40.png);"
+                class="filter-block item button animal r0 r9 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr195 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a40.rifles"
+              >
+                Feral Goat
+              </button>
+              <!--                                                                                                                     41-->
+              <button
+                style="background-image: url(images/animal/41.png);"
+                class="filter-block item button animal r0 r10 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr195 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a41.rifles"
+              >
+                Dall Sheep
+              </button>
+              <!--                                                                                                                     42-->
+              <button
+                style="background-image: url(images/animal/42.png);"
+                class="filter-block item button animal r0 r12 wr483 wr621 wr817 wr835 wh344 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wm346 wm839"
+                data-filter=".a42.rifles"
+              >
+                Water Buffalo
+              </button>
+              <!--                                                                                                                     43-->
+              <button
+                style="background-image: url(images/animal/43.png);"
+                class="filter-block item button animal r0 r1 r2 r3 r7 wr10 wr195 wr862 wr970 wh12 ws69 ws720 ws785 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964 wm155"
+                data-filter=".a43.rifles"
+              >
+                Bobcat
+              </button>
+              <!--                                                                                                                     44-->
+              <button
+                style="background-image: url(images/animal/44.png);"
+                class="filter-block item button animal r0 r12 wr10 wr11 wr68 wr71 wr131 wr149 wr165 wr226 wr303 wr349 wr403 wr589 wr607 wr799 wr835 wr850 wr970 wr972 wh12 wh13 wh768 ws69 ws113 ws719 ws720 ws785 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm347 wm882"
+                data-filter=".a44.rifles"
+              >
+                Rusa Deer
+              </button>
+              <!--                                                                                                                     45-->
+              <button
+                style="background-image: url(images/animal/45.png);"
+                class="filter-block item button animal r0 r12 wr11 wr68 wr131 wr149 wr165 wr349 wr403 wr483 wr589 wr607 wr621 wr799 wr817 wr835 wr850 wr970 wr972 wh13 wh344 wh596 wh768 ws113 ws719 ws786 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wm155 wm346 wm839"
+                data-filter=".a45.rifles"
+              >
+                Sambar Deer
+              </button>
+              <!--                                                                                                                     46-->
+              <button
+                style="background-image: url(images/animal/46.png);"
+                class="filter-block item button animal r0 r12 wr11 wr149 wr165 wr349 wr483 wr621 wr817 wr835 wh344 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wm346 wm839"
+                data-filter=".a46.rifles"
+              >
+                Banteng
+              </button>
+              <!--                                                                                                                     47-->
+              <button
+                style="background-image: url(images/animal/47.png);"
+                class="filter-block item button animal r0 r12 wr862 wh12 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a47.rifles"
+              >
+                Magpie Goose
+              </button>
+              <!--                                                                                                                     49-->
+              <button
+                style="background-image: url(images/animal/49.png);"
+                class="filter-block item button animal r0 r6 wr195 wr862 wr970 wh12 ws69 ws720 ws785 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964 wm155"
+                data-filter=".a49.rifles"
+              >
+                Eurasian Lynx
+              </button>
+              <!--                                                                                                                     51-->
+              <button
+                style="background-image: url(images/animal/51.png);"
+                class="filter-block item button animal r0 r10 wr862 wh12 wh370 ws14 ws241 ws721 ws784 wab86 wab128 wab139 wab158 wab159 wab163 wab166 wab233 wab618 wab964"
+                data-filter=".a51.rifles"
+              >
+                Snow Goose
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filters3 weapon-section">
+      <div
+        id="weapon-container"
+        class="container"
+        style="position: absolute; left: -99999px;"
+      >
+        <div class="row">
+          <div class="col-md-12">
+            <input
+              type="checkbox"
+              class="navigation-checkbox"
+              id="nav-toggle-weapons"
+            />
+            <label for="nav-toggle-weapons" class="navigation-button">
+              <span class="section-title"
+                >Rifles <span class="count-weapon">(-)</span>:
+                <span class="selected-title">All</span></span
+              >
+            </label>
+
+            <div
+              id="weapon-list"
+              class="weapon-grid button-group"
+              data-filter-group="weapon"
+            >
+              <button
+                style="background-image: url(images/rifle/10.png);"
+                class="filter-block item button weapon rifles a19 a23 a39 a6 a43 a4 a41 a49 a40 a36 a1 a14 a21 a11 a44 a26 a0"
+                data-allowed="wr10"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .243 Nosler Ballistic Tip
+              </button>
+              <button
+                style="background-image: url(images/rifle/11.png);"
+                class="filter-block item button weapon rifles a19 a46 a39 a24 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr11"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .300 Nosler AccuBond
+              </button>
+              <button
+                style="background-image: url(images/rifle/68.png);"
+                class="filter-block item button weapon rifles a19 a39 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr68"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .30-06 Nosler Partition
+              </button>
+              <button
+                style="background-image: url(images/rifle/71.png);"
+                class="filter-block item button weapon rifles a19 a39 a6 a4 a41 a40 a5 a36 a1 a12 a21 a18 a11 a44 a26 a0 a10"
+                data-allowed="wr71"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .270 Nosler Ballistic Tip
+              </button>
+              <button
+                style="background-image: url(images/rifle/131.png);"
+                class="filter-block item button weapon rifles a19 a39 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr131"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .308 Nosler Partition
+              </button>
+              <button
+                style="background-image: url(images/rifle/149.png);"
+                class="filter-block item button weapon rifles a19 a46 a39 a24 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr149"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                8x57 IS Nosler Partition
+              </button>
+              <button
+                style="background-image: url(images/rifle/165.png);"
+                class="filter-block item button weapon rifles a19 a46 a39 a24 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr165"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                9.3x62 Nosler Partition
+              </button>
+              <button
+                style="background-image: url(images/rifle/195.png);"
+                class="filter-block item button weapon rifles a23 a43 a4 a41 a49 a40 a36 a14 a21 a11 a2"
+                data-allowed="wr195"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .223 Nosler Ballistic Tip
+              </button>
+              <button
+                style="background-image: url(images/rifle/226.png);"
+                class="filter-block item button weapon rifles a19 a39 a6 a4 a41 a40 a5 a36 a1 a12 a21 a18 a11 a44 a26 a0 a10"
+                data-allowed="wr226"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                6.5x55 Nosler AccuBond
+              </button>
+              <button
+                style="background-image: url(images/rifle/298.png);"
+                class="filter-block item button weapon rifles a28 a17 a20 a29 a15 a27 a7 a34 a25 a35 a33"
+                data-allowed="wr298"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .22 Air Rifle Pellet
+              </button>
+              <button
+                style="background-image: url(images/rifle/303.png);"
+                class="filter-block item button weapon rifles a19 a39 a6 a4 a41 a40 a5 a36 a1 a12 a21 a18 a11 a44 a26 a0 a10"
+                data-allowed="wr303"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .30-30 Nosler Partition
+              </button>
+              <button
+                style="background-image: url(images/rifle/349.png);"
+                class="filter-block item button weapon rifles a19 a46 a39 a24 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr349"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                7mm Magnum
+              </button>
+              <button
+                style="background-image: url(images/rifle/403.png);"
+                class="filter-block item button weapon rifles a19 a39 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr403"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .303 British Ammunition
+              </button>
+              <button
+                style="background-image: url(images/rifle/483.png);"
+                class="filter-block item button weapon rifles a46 a24 a9 a13 a5 a37 a8 a30 a12 a38 a3 a45 a42 a10"
+                data-allowed="wr483"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .45-70 Government
+              </button>
+              <button
+                style="background-image: url(images/rifle/589.png);"
+                class="filter-block item button weapon rifles a19 a39 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr589"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                7.62x54R SP Ammunition
+              </button>
+              <button
+                style="background-image: url(images/rifle/607.png);"
+                class="filter-block item button weapon rifles a19 a39 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr607"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .30-06 Round Nose Ammunition
+              </button>
+              <button
+                style="background-image: url(images/rifle/621.png);"
+                class="filter-block item button weapon rifles a46 a24 a9 a13 a5 a37 a8 a30 a12 a38 a3 a45 a42 a10"
+                data-allowed="wr621"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .340 Weatherby Magnum Ammunition
+              </button>
+              <button
+                style="background-image: url(images/rifle/771.png);"
+                class="filter-block item button weapon rifles a28 a17 a20 a29 a15 a27 a7 a34 a25 a35 a33"
+                data-allowed="wr771"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .17 HMR
+              </button>
+              <button
+                style="background-image: url(images/rifle/799.png);"
+                class="filter-block item button weapon rifles a19 a39 a9 a6 a13 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr799"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .30 R Ammunition
+              </button>
+              <button
+                style="background-image: url(images/rifle/817.png);"
+                class="filter-block item button weapon rifles a46 a24 a9 a13 a5 a37 a8 a30 a12 a38 a3 a45 a42 a10"
+                data-allowed="wr817"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .405 Ammunition
+              </button>
+              <button
+                style="background-image: url(images/rifle/835.png);"
+                class="filter-block item button weapon rifles a19 a46 a39 a24 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a42 a0 a10"
+                data-allowed="wr835"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                9.3x74R Ammunition
+              </button>
+              <button
+                style="background-image: url(images/rifle/850.png);"
+                class="filter-block item button weapon rifles a19 a39 a9 a6 a13 a4 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr850"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                7x64mm Ammunition
+              </button>
+              <button
+                style="background-image: url(images/rifle/862.png);"
+                class="filter-block item button weapon rifles a2 a4 a14 a16 a23 a43 a47 a49 a51"
+                data-allowed="wr862"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .17 HMR HV
+              </button>
+              <button
+                style="background-image: url(images/rifle/970.png);"
+                class="filter-block item button weapon rifles a19 a23 a39 a9 a6 a43 a4 a41 a49 a40 a5 a36 a1 a12 a14 a21 a18 a11 a44 a45 a26 a0 a10"
+                data-allowed="wr970"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                7mm-08 Ammunition (HV)
+              </button>
+              <button
+                style="background-image: url(images/rifle/972.png);"
+                class="filter-block item button weapon rifles a19 a39 a9 a6 a13 a41 a40 a5 a36 a37 a8 a1 a30 a12 a21 a18 a38 a11 a3 a44 a45 a26 a0 a10"
+                data-allowed="wr972"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                7mm-08 Ammunition (HP)
+              </button>
+
+              <button
+                style="background-image: url(images/handgun/12.png);"
+                class="filter-block item button weapon handguns a0 a1 a2 a4 a6 a11 a14 a16 a19 a21 a23 a26 a36 a39 a40 a41 a43 a44 a47 a49 a51"
+                data-allowed="wh12"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .357 Nosler Sporting Handgun
+              </button>
+              <button
+                style="background-image: url(images/handgun/13.png);"
+                class="filter-block item button weapon handguns a0 a1 a3 a4 a5 a6 a9 a10 a11 a12 a18 a19 a21 a26 a36 a38 a39 a40 a41 a44 a45"
+                data-allowed="wh13"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .44 Nosler Sporting Handgun
+              </button>
+              <button
+                style="background-image: url(images/handgun/344.png);"
+                class="filter-block item button weapon handguns a3 a5 a8 a9 a10 a12 a13 a24 a30 a37 a38 a42 a45 a46"
+                data-allowed="wh344"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .454 Nosler Custom Handgun
+              </button>
+              <button
+                style="background-image: url(images/handgun/370.png);"
+                class="filter-block item button weapon handguns a2 a7 a15 a16 a17 a20 a25 a27 a28 a29 a33 a34 a35 a47 a51"
+                data-allowed="wh370"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .22 LR Ammunition
+              </button>
+              <button
+                style="background-image: url(images/handgun/596.png);"
+                class="filter-block item button weapon handguns a3 a5 a8 a9 a10 a12 a13 a18 a30 a37 a38 a45"
+                data-allowed="wh596"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .45 Long Colt Handgun
+              </button>
+              <button
+                style="background-image: url(images/handgun/768.png);"
+                class="filter-block item button weapon handguns a0 a1 a3 a4 a5 a6 a9 a10 a11 a12 a18 a19 a21 a26 a36 a38 a39 a40 a41 a44 a45"
+                data-allowed="wh768"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                10mm Auto Ammunition
+              </button>
+
+              <button
+                style="background-image: url(images/shotgun/14.png);"
+                class="filter-block item button weapon shotguns a2 a7 a15 a16 a17 a20 a25 a27 a28 a29 a33 a34 a35 a47 a51"
+                data-allowed="ws14"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                12 GA Birdshot Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/69.png);"
+                class="filter-block item button weapon shotguns a0 a1 a4 a6 a11 a14 a19 a21 a23 a26 a36 a39 a40 a41 a43 a44 a49"
+                data-allowed="ws69"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                12 GA Buckshot Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/113.png);"
+                class="filter-block item button weapon shotguns a0 a1 a3 a4 a5 a6 a8 a9 a10 a11 a12 a13 a18 a19 a21 a26 a30 a36 a37 a38 a39 a40 a41 a44 a45"
+                data-allowed="ws113"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                12 GA Slug Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/241.png);"
+                class="filter-block item button weapon shotguns a2 a7 a15 a16 a17 a20 a25 a27 a28 a29 a33 a34 a35 a47 a51"
+                data-allowed="ws241"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                20 GA Birdshot Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/719.png);"
+                class="filter-block item button weapon shotguns a0 a1 a3 a4 a5 a6 a8 a9 a10 a11 a12 a13 a18 a19 a21 a26 a30 a36 a37 a38 a39 a40 a41 a44 a45"
+                data-allowed="ws719"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                16 GA Slug Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/720.png);"
+                class="filter-block item button weapon shotguns a0 a1 a4 a6 a11 a14 a19 a21 a23 a26 a36 a39 a40 a41 a43 a44 a49"
+                data-allowed="ws720"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                16 GA Buckshot Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/721.png);"
+                class="filter-block item button weapon shotguns a2 a7 a15 a16 a17 a20 a25 a27 a28 a29 a33 a34 a35 a47 a51"
+                data-allowed="ws721"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                16 GA Birdshot Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/784.png);"
+                class="filter-block item button weapon shotguns a2 a7 a15 a16 a17 a20 a25 a27 a28 a29 a33 a34 a35 a47 a51"
+                data-allowed="ws784"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                10 GA Birdshot Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/785.png);"
+                class="filter-block item button weapon shotguns a0 a1 a4 a6 a11 a14 a19 a21 a23 a26 a36 a39 a40 a41 a43 a44 a49"
+                data-allowed="ws785"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                10 GA Buckshot Shells
+              </button>
+              <button
+                style="background-image: url(images/shotgun/786.png);"
+                class="filter-block item button weapon shotguns a0 a1 a3 a4 a5 a6 a8 a9 a10 a11 a12 a13 a18 a19 a21 a26 a30 a36 a37 a38 a39 a40 a41 a44 a45"
+                data-allowed="ws786"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                10 GA Slug Shells
+              </button>
+
+              <button
+                style="background-image: url(images/arrow-bolt/86.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a24 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a49 a51"
+                data-allowed="wab86"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Compound Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/128.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a24 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a49 a51"
+                data-allowed="wab128"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Crossbow Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/139.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a24 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a49 a51"
+                data-allowed="wab139"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Recurve Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/158.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a24 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a49 a51"
+                data-allowed="wab158"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Recurve Tracer Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/159.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a24 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a49 a51"
+                data-allowed="wab159"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Compound Tracer Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/163.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a24 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a49 a51"
+                data-allowed="wab163"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Cupid Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/166.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a24 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a42 a43 a44 a45 a46 a47 a49 a51"
+                data-allowed="wab166"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Crossbow Tracer Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/233.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a43 a44 a45 a47 a49 a51"
+                data-allowed="wab233"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Longbow Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/618.png);"
+                class="filter-block item button weapon arrows-bolts a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 a16 a17 a18 a19 a20 a21 a23 a25 a26 a27 a28 a29 a30 a33 a34 a35 a36 a37 a38 a39 a40 a41 a43 a44 a45 a47 a49 a51"
+                data-allowed="wab618"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Cable Backed Bow Arrows
+              </button>
+              <button
+                style="background-image: url(images/arrow-bolt/964.png);"
+                class="filter-block item button weapon arrows-bolts a2 a7 a14 a15 a16 a17 a20 a23 a25 a27 a28 a29 a33 a34 a35 a43 a47 a49 a51"
+                data-allowed="wab964"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                Crossbow Bolts
+              </button>
+
+              <button
+                style="background-image: url(images/muzzleloader/155.png);"
+                class="filter-block item button weapon muzzleloaders a0 a1 a2 a3 a4 a5 a6 a8 a9 a10 a11 a12 a13 a14 a18 a19 a21 a26 a30 a36 a37 a38 a39 a40 a41 a43 a44 a45 a49"
+                data-allowed="wm155"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .50 Patched Round Ball
+              </button>
+              <button
+                style="background-image: url(images/muzzleloader/346.png);"
+                class="filter-block item button weapon muzzleloaders a3 a5 a8 a9 a10 a12 a13 a24 a30 a37 a38 a42 a45 a46"
+                data-allowed="wm346"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .50 Conical Bullet
+              </button>
+              <button
+                style="background-image: url(images/muzzleloader/347.png);"
+                class="filter-block item button weapon muzzleloaders a0 a1 a4 a6 a11 a18 a19 a21 a26 a36 a39 a40 a41 a44"
+                data-allowed="wm347"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .45 Saboted Bullet
+              </button>
+              <button
+                style="background-image: url(images/muzzleloader/839.png);"
+                class="filter-block item button weapon muzzleloaders a3 a5 a8 a9 a10 a12 a13 a24 a30 a37 a38 a42 a45 a46"
+                data-allowed="wm839"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .50 Lead Bullet
+              </button>
+              <button
+                style="background-image: url(images/muzzleloader/882.png);"
+                class="filter-block item button weapon muzzleloaders a0 a1 a4 a6 a11 a18 a19 a21 a26 a36 a39 a40 a41 a44"
+                data-allowed="wm882"
+              >
+                <span
+                  class="progresspie"
+                  data-piecolor-function="colorGt50"
+                  data-val="0"
+                ></span>
+                .45 Copper Bullet
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/isotope.pkgd.js"></script>
+    <script src="scripts/owlcarousel/owl.carousel.js"></script>
+    <script src="scripts/jquery-progresspiesvg-min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

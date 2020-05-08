@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height:100%; /* important to vertically align the container */
+    margin:0;
+    padding:0;
+    background-color: #2d2d2d;
+}
+
+#logo {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h1 {
+    color: #ccc;
+}
+
+.section-title {
+    font-size: 1.3rem;
+    color: #7a7164;
+}
+
+/* ---- slider ---- */
+.owl-carousel .owl-stage-outer {
+    text-align: center;
+}
+/* ---- button ---- */
+
+.navigation-checkbox {
+    display: none;
+}
+
+.button {
+    font-size: 1.3rem;
+    position: relative;
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    text-align: center;
+    text-indent: -9999em;
+    color: #222;
+    border: none;
+    border-radius: 1rem;
+    background: #EEE;
+}
+
+.button:hover {
+    border:2px solid #58585a;
+}
+.button:focus {
+    outline: none;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #000;
+}
+
+.button.is-checked {
+    color: white;
+    border:2px solid #f26822;
+    border-bottom: 8px solid #f26822;
+    box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+.button.weapon.is-checked {
+    border:2px solid #7a7164;
+    border-bottom: 8px solid #7a7164;
+}
+.button.allowed-weapon {
+    border:2px solid #c20000;
+}
+.button.animal.is-checked.allowed-weapon {
+    border:2px solid #c20000;
+    border-bottom: 8px solid #c20000;
+}
+
+.button.reserve.is-checked {
+    border:2px solid #287b25;
+    border-bottom: 8px solid #287b25;
+}
+.button.r-all.is-checked {
+    border:2px solid #f26822;
+    border-bottom: 8px solid #f26822;
+}
+.button.allowed-reserve:not([data-filter=".r0"]) {
+    border:2px solid #287b25;
+}
+.button.is-checked.allowed-reserve:not([data-filter=".r0"]) {
+    border-bottom: 8px solid #287b25;
+}
+.active-animal {
+    color: #287b25;
+}
+.active-weapon {
+    color: #c20000;
+}
+
+.button:active {
+    box-shadow: inset 0 1px 1rem hsla(0, 0%, 0%, 0.8);
+}
+
+.allowedTarget {
+	border:2px solid #f26822;
+}
+
+.reserve-section {
+    z-index: 20;
+    padding-top: 1rem;
+    border-bottom: 5px solid #f26822;
+    background-color: #2d2d2d;
+}
+
+.animal-container {
+    background-color: #2d2d2d;
+}
+
+.animal-section {
+    border-bottom: 5px solid #f26822;
+    background-color: #2d2d2d;
+}
+
+.container label {
+    padding-top: 1rem;
+}
+
+.animal-section label,
+.reserve-section label,
+.weapon-section label {
+    border-bottom: 5px solid transparent;
+}
+
+.reserve-section label {
+    z-index: 30;
+}
+
+.animal-section label {
+    z-index: 10;
+}
+
+.weapon-section label {
+    z-index: 5;
+}
+
+#weapon-list {
+    z-index: 0;
+}
+
+
+
+.sticky:before,
+.sticky:after {
+    display: table;
+    content: '';
+}
+
+.selected-reserve {
+    color: #287b25;
+}
+
+.selected-title {
+    color: #f26822;
+}
+
+.reserve, .animal, .weapon {
+    width: 7.8rem;
+    height: 8.4rem;
+    border: 2px solid #333333;
+    background-color: #262626;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 64px;
+}
+
+.temporary-title {
+    color: #58585a;
+}
+
+/* ---- button-group ---- */
+span.ti-arrow-right,
+span.ti-arrow-left{
+    display: initial;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    color: #262626;
+    border-radius: 4px;
+    background: #f26822;
+}
+
+.button-group:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+/* ---- isotope ---- */
+
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+
+/* clear fix */
+
+.grid:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+/* ui group */
+
+.ui-group {
+    display: inline-block;
+}
+
+.ui-group h3 {
+    font-size: 16px;
+    line-height: 32px;
+    display: inline-block;
+    margin-right: 0.2em;
+    vertical-align: top;
+}
+
+.ui-group .button-group {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* color-shape */
+
+.filter-block {
+    float: left;
+}
+
+.filter-block.round {
+    border-radius: 35px;
+}
+
+.filter-block.big.round {
+    border-radius: 75px;
+}
+
+.filter-block.red { background: red; }
+.filter-block.blue { background: blue; }
+.filter-block.yellow { background: yellow; }
+
+.filter-block.wide, .filter-block.big { width: 150px; }
+.filter-block.tall, .filter-block.big { height: 150px; }
+
+.fix-title {
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    padding: 10px 15px;
+    background: #2d2d2d;
+}
+
+
+#weapon-selection {
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    right: 0;
+}
+
+#weapon-selection .dropdown-toggle {
+    min-width: 120px;
+    text-align: left;
+}
+
+#weapon-selection .btn-secondary {
+    border-color: #58585a;
+    background-color: #58585a;
+}
+
+#weapon-selection .btn {
+    font-size: 1.3rem;
+}
+
+#weapon-selection .btn-active {
+    background-color: #f26822;
+}
+
+#weapon-selection .dropdown-menu {
+    font-size: 1.3rem;
+    padding: 0;
+    color: white;
+    background-color: #7a7164;
+}
+
+#weapon-selection .dropdown-item {
+    cursor: pointer;
+}
+
+#weapon-selection .dropdown-item:active {
+     outline-color: #f26822;
+     background-color: transparent;
+ }
+
+#weapon-selection .dropdown-item:hover,
+#weapon-selection .dropdown-item:focus {
+    background-color: #58585a;
+}
+
+#weapon-selection .dropdown-menu.show {
+    display: block;
+    width: 100%;
+}
+
+#weapon-selection button.dropdown-item {
+    padding: .5rem;
+    border-bottom: 2px solid #2d2d2d;
+}
+
+.reserve-section button span:not(.glyphicon),
+.weapon-section button span {
+    position: absolute;
+    top: -7px;
+    right: 2px;
+    text-indent: 0;
+}
+
+@media (max-width : 414px) {
+    #logo {
+        margin-top: 2rem;
+        padding-left: 15px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    #weapon-selection {
+        left: 70%;
+    }
+}
+
+@media (min-width: 1920px)  {
+    #weapon-selection {
+        left: 60%;
+    }
+}
+
+.temp-bg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    background: #8f4b28;
+}
+
+.weapon-bg {
+    z-index: 1;
+    background-color: #8f4b28;
+}
+
+.weapon-hidden {
+    display: none;
+}
