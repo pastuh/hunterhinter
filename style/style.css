@@ -71,20 +71,20 @@ h1 {
     box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
 }
 .button.weapon.is-checked {
-    border:2px solid #7a7164;
-    border-bottom: 8px solid #7a7164;
+    border:2px solid #f26822;
+    border-bottom: 8px solid #f26822;
 }
 .button.allowed-weapon {
-    border:2px solid #c20000;
+    border:2px solid #287b25;
 }
 .button.animal.is-checked.allowed-weapon {
-    border:2px solid #c20000;
-    border-bottom: 8px solid #c20000;
+    border:2px solid #f26822;
+    border-bottom: 8px solid #f26822;
 }
 
 .button.reserve.is-checked {
-    border:2px solid #287b25;
-    border-bottom: 8px solid #287b25;
+    border:2px solid #f26822;
+    border-bottom: 8px solid #f26822;
 }
 .button.r-all.is-checked {
     border:2px solid #f26822;
@@ -94,13 +94,14 @@ h1 {
     border:2px solid #287b25;
 }
 .button.is-checked.allowed-reserve:not([data-filter=".r0"]) {
-    border-bottom: 8px solid #287b25;
+    border: 2px solid #f26822;
+    border-bottom: 8px solid #f26822;
 }
 .active-animal {
     color: #287b25;
 }
 .active-weapon {
-    color: #c20000;
+    color: #287b25;
 }
 
 .button:active {
@@ -324,9 +325,15 @@ span.ti-arrow-left{
 .reserve-section button span:not(.glyphicon),
 .weapon-section button span {
     position: absolute;
-    top: -7px;
-    right: 2px;
+    top: -6px;
+    right: 1px;
     text-indent: 0;
+}
+
+.weapon-section button span svg,
+.reserve-section button span svg {
+	height: 12px;
+    width: 12px;
 }
 
 @media (max-width : 414px) {
